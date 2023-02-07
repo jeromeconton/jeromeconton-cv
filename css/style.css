@@ -33,7 +33,7 @@ body {
 #left_side {
   position: relative;
   background: #01496a;
-  padding: 2rem 2rem 3rem 2rem;
+  padding: 2rem 1.5rem 3rem 1.9rem;
 }
 
 .photo {
@@ -71,6 +71,7 @@ h1 {
   color: #fff;
   line-height: 1.4rem;
   font-weight: 600;
+  font-size: 1.3rem;
 
 }
 

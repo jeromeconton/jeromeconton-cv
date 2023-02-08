@@ -107,7 +107,11 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   padding-bottom: 1.5rem;
+}
 
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 #formation {

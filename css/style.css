@@ -100,6 +100,11 @@ h2 {
   margin: 0.2rem 0rem 0rem 0.5rem;
 }
 
+.liens {
+  color: #fff;
+  text-decoration: none;
+}
+
 h3 {
   border-top: 1px solid rgba(255,255,255,0.1);
   padding-top: 2.5rem;

@@ -33,13 +33,14 @@ body {
 #left_side {
   position: relative;
   background: #01496a;
-  padding: 2rem 1.5rem 3rem 1.9rem;
+  padding: 2rem 1.2rem 3rem 1.2rem;
 }
 
 .photo {
   position: relative;
+  object-fit:cover;
   margin: 1rem;
-  width: 14.5em;
+  width: 15em;
   height: 15em;
   border-radius: 50%;
 }
@@ -61,7 +62,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
-  line-height: 1.4rem;
+  line-height: 1.8rem;
 
 }
 
@@ -107,11 +108,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   padding-bottom: 1.5rem;
-}
 
-.liens {
-  color: #fff;
-  text-decoration: none;
 }
 
 #formation {
@@ -170,7 +167,7 @@ h5 {
 #right_side {
   position: relative;
   background-color: #fff;
-  padding: 5rem 3rem 0rem 2.6rem;
+  padding: 2rem 3rem 0rem 2.6rem;
 }
 
 main {
@@ -178,46 +175,46 @@ main {
   text-align: justify;
 }
 
-#profil {
-  padding-bottom: 1rem;
-}
-
 .profil_p {
   color: #333;
   line-height: 1.3rem;
-}
-
-#exp {
   padding-bottom: 1rem;
 }
 
+#competences {
+  padding-bottom: 1rem;
+}
+
+.comp_p {
+  color: #333;
+  line-height: 1.3rem;
+  padding: 0.5rem 0.5rem 0rem 0rem;
+}
+
 .exp_h4 {
-  padding: 0.5rem 0rem 0rem 2rem;
+  padding: 0.5rem 0rem 0rem 1.2rem;
   font-weight: 500; 
 }
 
 .exp_p {
   color: #333;
   line-height: 1.3rem;
-  padding: 0.5rem 0rem 0.5rem 2rem;
+  padding: 0.5rem 0.5rem 0rem 2rem;
 }
 
-#technos {
-  position: relative;
-  line-height: 2rem;
-}
-
-
-.technos_list {
-  text-transform: capitalize;
-  padding-top: 1.5rem;
-  font-size: 1.2rem;
+.soft_skills {
   color: #333;
+  font-weight: 500;
+  margin: 0.5rem;
+}
 
+
+.technos_icon {
+  margin-top: 1.2rem;
 }
 
 footer {
   text-align: right;
-  padding: 14rem 0rem 0rem !important;
-  margin: 0 !important;
+  padding: 1.5rem 0rem 0rem !important;
+  margin: 0rem !important;
 }
